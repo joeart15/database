@@ -18,7 +18,7 @@ app.use("/", del);
 app.use("/", puts);
 
 app.listen(process.env.PORT, () => {
-    console.log(`server started at: http://localhost:${process.env.PORT}`);
+  console.log(`server started at: http://localhost:${process.env.PORT}`);
 });
 
-module.exports = {app:app}
+module.exports = { app };
